@@ -3,105 +3,122 @@
     "title": "East of Eden",
     "author": "John Steinbeck",
     "published": "1952",
-    "shelf": "currently-reading"
+    "shelf": "currently-reading",
+    "topic": "Literary fiction"
   },
   {
     "title": "The Lord of the Rings",
     "author": "J. R. R. Tolkien",
     "published": "1954–1955",
-    "shelf": "currently-reading"
+    "shelf": "currently-reading",
+    "topic": "Fantasy"
   },
   {
     "title": "Chip War: The Fight for the World's Most Critical Technology",
     "author": "Chris Miller",
     "published": "2022",
-    "shelf": "currently-reading"
+    "shelf": "currently-reading",
+    "topic": "Technology"
   },
   {
     "title": "Apple in China",
     "author": "Patrick McGee",
     "published": "2025",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Technology"
   },
   {
     "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
     "published": "2011",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "History"
   },
   {
     "title": "Guns, Germs, and Steel",
     "author": "Jared Diamond",
     "published": "1997",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "History"
   },
   {
     "title": "The Ride of a Lifetime",
     "author": "Bob Iger",
     "published": "2019",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Memoir"
   },
   {
     "title": "Dreams from My Father",
     "author": "Barack Obama",
     "published": "1995",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Memoir"
   },
   {
     "title": "Flowers for Algernon",
     "author": "Daniel Keyes",
     "published": "1966",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Science fiction"
   },
   {
     "title": "A Song of Ice and Fire",
     "author": "George R. R. Martin",
     "published": "1996–",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Fantasy"
   },
   {
     "title": "Harry Potter",
     "author": "J. K. Rowling",
     "published": "1997–2007",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Fantasy"
   },
   {
     "title": "The Inheritance Cycle",
     "author": "Christopher Paolini",
     "published": "2003–2011",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Fantasy"
   },
   {
     "title": "A Series of Unfortunate Events",
     "author": "Lemony Snicket",
     "published": "1999–2006",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Adventure"
   },
   {
     "title": "The Trading Game: A Confession",
     "author": "Gary Stevenson",
     "published": "2024",
-    "shelf": "read"
+    "shelf": "read",
+    "topic": "Memoir"
   },
   {
     "title": "Red Rising",
     "author": "Pierce Brown",
     "published": "2014",
-    "shelf": "reading-list"
+    "shelf": "reading-list",
+    "topic": "Science fiction"
   },
   {
     "title": "The Farseer Trilogy",
     "author": "Robin Hobb",
     "published": "1995–1997",
     "why": "Follows Fitz, a royal bastard training to be an assassin.",
-    "shelf": "reading-list"
+    "shelf": "reading-list",
+    "topic": "Fantasy"
   },
   {
     "title": "Empire of the Vampire",
     "author": "Jay Kristoff",
     "published": "2021–",
     "why": "A vampire story told as an interview.",
-    "shelf": "reading-list"
+    "shelf": "reading-list",
+    "topic": "Fantasy"
   },
   {
     "title": "So Good They Can't Ignore You",
@@ -115,6 +132,7 @@
       "skills",
       "work"
     ],
-    "shelf": "gist"
+    "shelf": "gist",
+    "topic": "Careers"
   }
 ]

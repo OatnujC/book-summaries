@@ -1,17 +1,17 @@
 # JT's Library
 
-A reading shelf and a place for book summaries, written as essays. Plain HTML, CSS and JavaScript; no dependencies or build step. The home page fetches `books.json` and groups each book onto one of four shelves. Essays live in `books/` and share the site’s typography with [JT's Almanac](https://github.com/OatnujC/almanac). The live site is at [oatnujc.github.io/book-summaries](https://oatnujc.github.io/book-summaries/).
+A searchable reading library and a place for book summaries, written as essays. Plain HTML, CSS and JavaScript; no dependencies or build step. The home page fetches `books.json` and lets you browse all books or one of four shelves, search titles/authors/topics, filter by topic or summary availability, sort, and switch between list and grid views. Results are paginated eight books at a time. Essays live in `books/` and share the site’s typography with [JT's Almanac](https://github.com/OatnujC/almanac). The live site is at [oatnujc.github.io/book-summaries](https://oatnujc.github.io/book-summaries/).
 
 ## The shelves
 
-The home page lists shelves in this order:
+The sidebar lists All books followed by these shelves:
 
-1. **Currently reading** — books on the desk, shown as a compact slot at the top.
+1. **Currently reading** — books on the desk.
 2. **Read** — finished books, with the date finished, a star rating from 1 to 5, a line of my own thoughts, and a link to the summary if one exists.
 3. **Reading list** — books I mean to read, with a note on why they appealed or who recommended them.
 4. **The Gist** — books I am only having summarised, rather than reading myself.
 
-A book without a `page` field appears as a title only, with no link.
+A book with a `page` field links to its essay. Other titles open a keyboard-accessible detail dialog with any notes, reason for reading, rating and dates. Search and filter selections are stored in the URL, so views can be bookmarked or shared and browser Back restores the library after visiting an essay. The summary filter works across every shelf and checks for an essay link, independently of The Gist shelf.
 
 ## GitHub Pages
 
@@ -39,6 +39,7 @@ Optional fields, used by particular shelves:
 - `date_summarised` — `YYYY-MM-DD`, for The Gist.
 - `gist` — a one-line sense of the argument, for The Gist.
 - `tags` — an array of short labels, shown on the card.
+- `topic` — a broad category such as `Fantasy`, `History` or `Technology`, shown in the list. Both this field and `tags` appear in the topic filter and are searchable. Both are optional; new categories are picked up automatically.
 - `page` — a path such as `books/2026-11-12-book-title.html`. Omit this until a summary essay exists; the card will then link itself.
 
 The Read shelf is sorted by date finished, newest first; The Gist by date summarised, newest first. The other shelves keep the order of `books.json`.
