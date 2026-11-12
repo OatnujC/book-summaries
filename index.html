@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JT’s Library: book summaries and reading notes, written as essays you can come back to.">
+  <title>JT's Library · Book summaries</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="books.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to books</a>
+  <header class="site-header wrap"><a class="wordmark" href="index.html">JT’s Library<span>Book summaries</span></a><span class="header-note">What the books were for</span></header>
+  <main class="wrap" id="main">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">Reading notes</p>
+      <h1 id="intro-title">Books worth<br>sitting with.</h1>
+      <p class="lead">A private shelf of the books I’ve read, and the essays that try to keep the gist.<br>Title, author, a one-line sense of the argument, and a longer piece when I want to remember more than a blurb.</p>
+    </section>
+    <section class="books-section" aria-labelledby="books-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The shelf</p>
+          <h2 id="books-title">Summaries</h2>
+        </div>
+        <span id="book-count" class="book-count" hidden></span>
+      </div>
+      <p id="books-status" class="status" role="status">Loading books…</p>
+      <ul id="books-list" class="entries-list"></ul>
+      <p id="empty-list" hidden>No summaries yet. Copy <code>books/_template.html</code> and add an entry to <code>books.json</code> to start the shelf.</p>
+    </section>
+    <noscript><p>Please enable JavaScript to load the shelf, or read the first essay: <a href="books/2026-11-12-so-good-they-cant-ignore-you.html">So Good They Can’t Ignore You</a>.</p></noscript>
+  </main>
+  <footer class="site-footer wrap">JT’s Library · Read slowly, keep the gist.</footer>
+</body>
+</html>
