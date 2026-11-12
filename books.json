@@ -200,7 +200,15 @@
     "title": "A Song of Ice and Fire",
     "author": "George R.R. Martin",
     "published": "1996",
-    "shelf": "read"
+    "shelf": "read",
+    "date_summarised": "2026-11-12",
+    "gist": "Five published novels of dynastic war, a returning exile and a winter that is not a metaphor, with the ending still unwritten.",
+    "page": "books/2026-11-12-a-song-of-ice-and-fire.html",
+    "tags": [
+      "fiction",
+      "fantasy",
+      "politics"
+    ]
   },
   {
     "title": "Dataclysm",
