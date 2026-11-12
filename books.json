@@ -1,11 +1,54 @@
 [
   {
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "published": "1952",
+    "shelf": "currently-reading"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J. R. R. Tolkien",
+    "published": "1954–1955",
+    "shelf": "currently-reading"
+  },
+  {
+    "title": "Chip War: The Fight for the World's Most Critical Technology",
+    "author": "Chris Miller",
+    "published": "2022",
+    "shelf": "currently-reading"
+  },
+  {
+    "title": "Red Rising",
+    "author": "Pierce Brown",
+    "published": "2014",
+    "shelf": "reading-list"
+  },
+  {
+    "title": "The Farseer Trilogy",
+    "author": "Robin Hobb",
+    "published": "1995–1997",
+    "why": "Follows Fitz, a royal bastard training to be an assassin.",
+    "shelf": "reading-list"
+  },
+  {
+    "title": "Empire of the Vampire",
+    "author": "Jay Kristoff",
+    "published": "2021–",
+    "why": "A vampire story told as an interview.",
+    "shelf": "reading-list"
+  },
+  {
     "title": "So Good They Can't Ignore You",
     "author": "Cal Newport",
     "published": "2012",
     "date_summarised": "2026-11-12",
     "gist": "Passion is a poor starting point: you earn work you love by building rare career capital, then spending it on control and a mission.",
     "page": "books/2026-11-12-so-good-they-cant-ignore-you.html",
-    "tags": ["careers", "skills", "work"]
+    "tags": [
+      "careers",
+      "skills",
+      "work"
+    ],
+    "shelf": "gist"
   }
 ]

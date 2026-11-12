@@ -3,33 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="JT’s Library: book summaries and reading notes, written as essays you can come back to.">
+  <meta name="description" content="JT’s Library: what I’m reading, what I’ve finished, what I mean to read next, and essays that keep the gist.">
   <title>JT's Library · Book summaries</title>
   <link rel="stylesheet" href="style.css">
   <script src="books.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to books</a>
+  <a class="skip-link" href="#main">Skip to the shelves</a>
   <header class="site-header wrap"><a class="wordmark" href="index.html">JT’s Library<span>Book summaries</span></a><span class="header-note">What the books were for</span></header>
   <main class="wrap" id="main">
     <section class="intro" aria-labelledby="intro-title">
-      <p class="eyebrow">Reading notes</p>
+      <p class="eyebrow">A reading life</p>
       <h1 id="intro-title">Books worth<br>sitting with.</h1>
-      <p class="lead">A private shelf of the books I’ve read, and the essays that try to keep the gist.<br>Title, author, a one-line sense of the argument, and a longer piece when I want to remember more than a blurb.</p>
+      <p class="lead">What I’m reading now, what I’ve finished, what I mean to read next, and the essays that keep the gist of books I asked to have summarised.</p>
     </section>
-    <section class="books-section" aria-labelledby="books-title">
+    <p id="books-status" class="status" role="status">Loading the shelves…</p>
+
+    <section class="shelf shelf-current" id="currently-reading" aria-labelledby="currently-reading-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">The shelf</p>
-          <h2 id="books-title">Summaries</h2>
+          <p class="eyebrow">On the desk</p>
+          <h2 id="currently-reading-title">Currently reading</h2>
         </div>
-        <span id="book-count" class="book-count" hidden></span>
+        <span class="book-count" data-count-for="currently-reading" hidden></span>
       </div>
-      <p id="books-status" class="status" role="status">Loading books…</p>
-      <ul id="books-list" class="entries-list"></ul>
-      <p id="empty-list" hidden>No summaries yet. Copy <code>books/_template.html</code> and add an entry to <code>books.json</code> to start the shelf.</p>
+      <ul class="entries-list" data-shelf="currently-reading"></ul>
+      <p class="empty-shelf" data-empty-for="currently-reading" hidden>Nothing on the desk just now.</p>
     </section>
-    <noscript><p>Please enable JavaScript to load the shelf, or read the first essay: <a href="books/2026-11-12-so-good-they-cant-ignore-you.html">So Good They Can’t Ignore You</a>.</p></noscript>
+
+    <section class="shelf" id="read" aria-labelledby="read-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Finished</p>
+          <h2 id="read-title">Read</h2>
+        </div>
+        <span class="book-count" data-count-for="read" hidden></span>
+      </div>
+      <ul class="entries-list" data-shelf="read"></ul>
+      <p class="empty-shelf" data-empty-for="read" hidden>Nothing finished yet. When a book is done, it will appear here with the date, a rating and a line of my own.</p>
+    </section>
+
+    <section class="shelf" id="reading-list" aria-labelledby="reading-list-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Still to come</p>
+          <h2 id="reading-list-title">Reading list</h2>
+        </div>
+        <span class="book-count" data-count-for="reading-list" hidden></span>
+      </div>
+      <ul class="entries-list" data-shelf="reading-list"></ul>
+      <p class="empty-shelf" data-empty-for="reading-list" hidden>The list is empty for now. Books I mean to read, and why they appealed or who pressed them on me, will sit here.</p>
+    </section>
+
+    <section class="shelf" id="gist" aria-labelledby="gist-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Summaries</p>
+          <h2 id="gist-title">The Gist</h2>
+        </div>
+        <span class="book-count" data-count-for="gist" hidden></span>
+      </div>
+      <ul class="entries-list" data-shelf="gist"></ul>
+      <p class="empty-shelf" data-empty-for="gist" hidden>No summaries yet. Books I’m having summarised, rather than reading myself, will land here.</p>
+    </section>
+
+    <noscript>
+      <p>Please enable JavaScript to load the shelves. Currently reading: East of Eden, The Lord of the Rings and Chip War. On the reading list: Red Rising, The Farseer Trilogy and Empire of the Vampire. The Gist has an essay on <a href="books/2026-11-12-so-good-they-cant-ignore-you.html">So Good They Can’t Ignore You</a>.</p>
+    </noscript>
   </main>
   <footer class="site-footer wrap">JT’s Library · Read slowly, keep the gist.</footer>
 </body>
