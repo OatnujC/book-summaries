@@ -7,7 +7,11 @@
     "date_summarised": "2026-11-12",
     "gist": "Passion is a poor starting point: you earn work you love by building rare career capital, then spending it on control and a mission.",
     "page": "books/2026-11-12-so-good-they-cant-ignore-you.html",
-    "tags": ["careers", "skills", "work"]
+    "tags": [
+      "careers",
+      "skills",
+      "work"
+    ]
   },
   {
     "title": "Principles for Dealing with the Changing World Order",
@@ -17,7 +21,11 @@
     "date_summarised": "2026-11-12",
     "gist": "Empires rise and fall in a Big Cycle of debt, internal conflict and external rivalry, and the American order looks late in that cycle.",
     "page": "books/2026-11-12-changing-world-order.html",
-    "tags": ["history", "geopolitics", "economics"]
+    "tags": [
+      "history",
+      "geopolitics",
+      "economics"
+    ]
   },
   {
     "title": "Guns, Germs, and Steel",
@@ -27,7 +35,11 @@
     "date_summarised": "2026-11-12",
     "gist": "Eurasia’s lead came from domesticable plants and animals and an east–west continent, not from innate superiority.",
     "page": "books/2026-11-12-guns-germs-and-steel.html",
-    "tags": ["history", "geography", "society"]
+    "tags": [
+      "history",
+      "geography",
+      "society"
+    ]
   },
   {
     "title": "Apple in China",
@@ -38,13 +50,25 @@
     "date_summarised": "2026-11-12",
     "gist": "Apple did not just assemble the iPhone in China. It trained a manufacturing system there, and then found it could not leave.",
     "page": "books/2026-11-12-apple-in-china.html",
-    "tags": ["business", "china", "technology"]
+    "tags": [
+      "business",
+      "china",
+      "technology"
+    ]
   },
   {
     "title": "Pachinko",
     "author": "Min Jin Lee",
     "published": "2017",
-    "shelf": "read"
+    "shelf": "read",
+    "date_summarised": "2026-11-12",
+    "gist": "Four generations of a Korean family in Japan survive by work, silence and a gambling trade the country despises.",
+    "page": "books/2026-11-12-pachinko.html",
+    "tags": [
+      "fiction",
+      "history",
+      "family"
+    ]
   },
   {
     "title": "The Psychology of Money",
