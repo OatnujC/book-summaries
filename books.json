@@ -158,7 +158,15 @@
     "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
     "published": "2002",
-    "shelf": "read"
+    "shelf": "read",
+    "date_summarised": "2026-11-12",
+    "gist": "A runaway boy and an old man who talks to cats move through the same myth, and neither quite wakes up.",
+    "page": "books/2026-11-12-kafka-on-the-shore.html",
+    "tags": [
+      "fiction",
+      "myth",
+      "japan"
+    ]
   },
   {
     "title": "Homo Deus",
