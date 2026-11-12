@@ -1,30 +1,54 @@
 [
   {
-    "title": "So Good They Can't Ignore You",
-    "author": "Cal Newport",
-    "published": "2012",
-    "shelf": "read",
-    "date_summarised": "2026-11-12",
-    "gist": "Passion is a poor starting point: you earn work you love by building rare career capital, then spending it on control and a mission.",
-    "page": "books/2026-11-12-so-good-they-cant-ignore-you.html",
-    "tags": [
-      "careers",
-      "skills",
-      "work"
-    ]
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "published": "1952",
+    "shelf": "currently-reading",
+    "topic": "Literary fiction"
   },
   {
-    "title": "Principles for Dealing with the Changing World Order",
-    "author": "Ray Dalio",
-    "published": "2021",
+    "title": "The Lord of the Rings",
+    "author": "J. R. R. Tolkien",
+    "published": "1954–1955",
+    "shelf": "currently-reading",
+    "topic": "Fantasy"
+  },
+  {
+    "title": "Chip War: The Fight for the World's Most Critical Technology",
+    "author": "Chris Miller",
+    "published": "2022",
+    "shelf": "currently-reading",
+    "topic": "Technology"
+  },
+  {
+    "title": "Apple in China",
+    "author": "Patrick McGee",
+    "published": "2025",
     "shelf": "read",
+    "topic": "Technology",
     "date_summarised": "2026-11-12",
-    "gist": "Empires rise and fall in a Big Cycle of debt, internal conflict and external rivalry, and the American order looks late in that cycle.",
-    "page": "books/2026-11-12-changing-world-order.html",
+    "gist": "Apple did not just assemble the iPhone in China. It trained a manufacturing system there, and then found it could not leave.",
+    "page": "books/2026-11-12-apple-in-china.html",
+    "tags": [
+      "business",
+      "china",
+      "technology"
+    ],
+    "rating": 4.5
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "published": "2011",
+    "shelf": "read",
+    "topic": "History",
+    "date_summarised": "2026-11-12",
+    "gist": "Harari's history of the species runs from a cognitive leap to a scientific one, and treats shared myths as the real tool.",
+    "page": "books/2026-11-12-sapiens.html",
     "tags": [
       "history",
-      "geopolitics",
-      "economics"
+      "society",
+      "science"
     ]
   },
   {
@@ -32,6 +56,7 @@
     "author": "Jared Diamond",
     "published": "1997",
     "shelf": "read",
+    "topic": "History",
     "date_summarised": "2026-11-12",
     "gist": "Eurasia’s lead came from domesticable plants and animals and an east–west continent, not from innate superiority.",
     "page": "books/2026-11-12-guns-germs-and-steel.html",
@@ -42,18 +67,98 @@
     ]
   },
   {
-    "title": "Apple in China",
-    "author": "Patrick McGee",
-    "published": "2025",
+    "title": "The Ride of a Lifetime",
+    "author": "Bob Iger",
+    "published": "2019",
     "shelf": "read",
-    "rating": 4.5,
+    "topic": "Memoir",
     "date_summarised": "2026-11-12",
-    "gist": "Apple did not just assemble the iPhone in China. It trained a manufacturing system there, and then found it could not leave.",
-    "page": "books/2026-11-12-apple-in-china.html",
+    "gist": "Iger's memoir of Disney is sharpest on the deals for Pixar, Marvel, Lucasfilm and Fox, and guarded about the man who made them.",
+    "page": "books/2026-11-12-the-ride-of-a-lifetime.html",
     "tags": [
       "business",
-      "china",
-      "technology"
+      "memoir",
+      "leadership"
+    ]
+  },
+  {
+    "title": "Dreams from My Father",
+    "author": "Barack Obama",
+    "published": "1995",
+    "shelf": "read",
+    "topic": "Memoir"
+  },
+  {
+    "title": "Flowers for Algernon",
+    "author": "Daniel Keyes",
+    "published": "1966",
+    "shelf": "read",
+    "topic": "Science fiction"
+  },
+  {
+    "title": "A Song of Ice and Fire",
+    "author": "George R. R. Martin",
+    "published": "1996–",
+    "shelf": "read",
+    "topic": "Fantasy",
+    "date_summarised": "2026-11-12",
+    "gist": "Five published novels of dynastic war, a returning exile and a winter that is not a metaphor, with the ending still unwritten.",
+    "page": "books/2026-11-12-a-song-of-ice-and-fire.html",
+    "tags": [
+      "fiction",
+      "fantasy",
+      "politics"
+    ]
+  },
+  {
+    "title": "Harry Potter",
+    "author": "J. K. Rowling",
+    "published": "1997–2007",
+    "shelf": "read",
+    "topic": "Fantasy"
+  },
+  {
+    "title": "The Inheritance Cycle",
+    "author": "Christopher Paolini",
+    "published": "2003–2011",
+    "shelf": "read",
+    "topic": "Fantasy"
+  },
+  {
+    "title": "A Series of Unfortunate Events",
+    "author": "Lemony Snicket",
+    "published": "1999–2006",
+    "shelf": "read",
+    "topic": "Adventure"
+  },
+  {
+    "title": "The Trading Game: A Confession",
+    "author": "Gary Stevenson",
+    "published": "2024",
+    "shelf": "read",
+    "topic": "Memoir",
+    "date_summarised": "2026-11-12",
+    "gist": "A working-class trader bets that inequality will keep rates low, then cannot walk away from the bonus.",
+    "page": "books/2026-11-12-the-trading-game.html",
+    "tags": [
+      "memoir",
+      "finance",
+      "inequality"
+    ]
+  },
+  {
+    "title": "Principles for Dealing with the Changing World Order",
+    "author": "Ray Dalio",
+    "published": "2021",
+    "shelf": "read",
+    "topic": "History",
+    "date_summarised": "2026-11-12",
+    "gist": "Empires rise and fall in a Big Cycle of debt, internal conflict and external rivalry, and the American order looks late in that cycle.",
+    "page": "books/2026-11-12-changing-world-order.html",
+    "tags": [
+      "history",
+      "geopolitics",
+      "economics"
     ]
   },
   {
@@ -61,6 +166,7 @@
     "author": "Min Jin Lee",
     "published": "2017",
     "shelf": "read",
+    "topic": "Fiction",
     "date_summarised": "2026-11-12",
     "gist": "Four generations of a Korean family in Japan survive by work, silence and a gambling trade the country despises.",
     "page": "books/2026-11-12-pachinko.html",
@@ -75,6 +181,7 @@
     "author": "Morgan Housel",
     "published": "2020",
     "shelf": "read",
+    "topic": "Economics",
     "date_summarised": "2026-11-12",
     "gist": "Doing well with money is a test of behaviour and time, not of how many formulas you know.",
     "page": "books/2026-11-12-the-psychology-of-money.html",
@@ -89,6 +196,7 @@
     "author": "Abhijit V. Banerjee and Esther Duflo",
     "published": "2019",
     "shelf": "read",
+    "topic": "Economics",
     "date_summarised": "2026-11-12",
     "gist": "Banerjee and Duflo trade grand theories of migration, trade and growth for what the evidence will support.",
     "page": "books/2026-11-12-good-economics-for-hard-times.html",
@@ -99,24 +207,11 @@
     ]
   },
   {
-    "title": "The Trading Game",
-    "author": "Gary Stevenson",
-    "published": "2024",
-    "shelf": "read",
-    "date_summarised": "2026-11-12",
-    "gist": "A working-class trader bets that inequality will keep rates low, then cannot walk away from the bonus.",
-    "page": "books/2026-11-12-the-trading-game.html",
-    "tags": [
-      "memoir",
-      "finance",
-      "inequality"
-    ]
-  },
-  {
     "title": "Zero to One",
     "author": "Peter Thiel with Blake Masters",
     "published": "2014",
     "shelf": "read",
+    "topic": "Business",
     "date_summarised": "2026-11-12",
     "gist": "Real progress is a new monopoly, not a harder fight in a market that already exists.",
     "page": "books/2026-11-12-zero-to-one.html",
@@ -131,6 +226,7 @@
     "author": "Hannah Fry",
     "published": "2018",
     "shelf": "read",
+    "topic": "Technology",
     "date_summarised": "2026-11-12",
     "gist": "Trust an algorithm when it predicts better, and keep the human when the decision is a judgement about a person.",
     "page": "books/2026-11-12-hello-world.html",
@@ -145,6 +241,7 @@
     "author": "David Brooks",
     "published": "2011",
     "shelf": "read",
+    "topic": "Psychology",
     "date_summarised": "2026-11-12",
     "gist": "Brooks uses two invented lives to argue that the unconscious, not the rational plan, does most of the work of love and success.",
     "page": "books/2026-11-12-the-social-animal.html",
@@ -159,6 +256,7 @@
     "author": "Haruki Murakami",
     "published": "2002",
     "shelf": "read",
+    "topic": "Fiction",
     "date_summarised": "2026-11-12",
     "gist": "A runaway boy and an old man who talks to cats move through the same myth, and neither quite wakes up.",
     "page": "books/2026-11-12-kafka-on-the-shore.html",
@@ -173,6 +271,7 @@
     "author": "Yuval Noah Harari",
     "published": "2015",
     "shelf": "read",
+    "topic": "History",
     "date_summarised": "2026-11-12",
     "gist": "Harari argues that humanism may be a passing creed, and that data is the next thing people will be asked to worship.",
     "page": "books/2026-11-12-homo-deus.html",
@@ -187,6 +286,7 @@
     "author": "Yuval Noah Harari",
     "published": "2018",
     "shelf": "read",
+    "topic": "History",
     "date_summarised": "2026-11-12",
     "gist": "Harari says the liberal story is faltering, and that climate, war and technology cannot be solved by national myths.",
     "page": "books/2026-11-12-21-lessons-for-the-21st-century.html",
@@ -197,24 +297,11 @@
     ]
   },
   {
-    "title": "A Song of Ice and Fire",
-    "author": "George R.R. Martin",
-    "published": "1996",
-    "shelf": "read",
-    "date_summarised": "2026-11-12",
-    "gist": "Five published novels of dynastic war, a returning exile and a winter that is not a metaphor, with the ending still unwritten.",
-    "page": "books/2026-11-12-a-song-of-ice-and-fire.html",
-    "tags": [
-      "fiction",
-      "fantasy",
-      "politics"
-    ]
-  },
-  {
     "title": "Dataclysm",
     "author": "Christian Rudder",
     "published": "2014",
     "shelf": "read",
+    "topic": "Technology",
     "date_summarised": "2026-11-12",
     "gist": "OkCupid's data shows what people do when they think nobody is scoring them, and the scoring is the ethical problem.",
     "page": "books/2026-11-12-dataclysm.html",
@@ -229,6 +316,7 @@
     "author": "Robert Greene",
     "published": "2012",
     "shelf": "read",
+    "topic": "Careers",
     "date_summarised": "2026-11-12",
     "gist": "Greene argues genius is a long apprenticeship plus social intelligence, and his historical examples do a lot of the persuading.",
     "page": "books/2026-11-12-mastery.html",
@@ -243,6 +331,7 @@
     "author": "Daniel Goleman and Richard Davidson",
     "published": "2017",
     "shelf": "read",
+    "topic": "Psychology",
     "date_summarised": "2026-11-12",
     "gist": "Goleman and Davidson argue that meditation can change traits, not just moods, and that most of the studies do not show it.",
     "page": "books/2026-11-12-the-science-of-meditation.html",
@@ -257,6 +346,7 @@
     "author": "Jordan B. Peterson",
     "published": "2021",
     "shelf": "read",
+    "topic": "Psychology",
     "date_summarised": "2026-11-12",
     "gist": "Peterson's second set of rules mixes clinical advice with myth, and reviewers split on which voice is worth the slog.",
     "page": "books/2026-11-12-beyond-order.html",
@@ -271,6 +361,7 @@
     "author": "Michael Pollan",
     "published": "2018",
     "shelf": "read",
+    "topic": "Science",
     "date_summarised": "2026-11-12",
     "gist": "Pollan reports a medical return of psychedelics, takes a few himself, and cannot quite separate the drug from the room.",
     "page": "books/2026-11-12-how-to-change-your-mind.html",
@@ -285,6 +376,7 @@
     "author": "Hans Rosling, with Ola Rosling and Anna Rosling Rönnlund",
     "published": "2018",
     "shelf": "read",
+    "topic": "History",
     "date_summarised": "2026-11-12",
     "gist": "Rosling, with Ola Rosling and Anna Rosling Rönnlund, says our instincts make a better world look like a worse one.",
     "page": "books/2026-11-12-factfulness.html",
@@ -299,6 +391,7 @@
     "author": "Bill Gates",
     "published": "2021",
     "shelf": "read",
+    "topic": "Technology",
     "date_summarised": "2026-11-12",
     "gist": "Gates argues the way through a climate disaster is to drive the extra cost of clean options down to nothing.",
     "page": "books/2026-11-12-how-to-avoid-a-climate-disaster.html",
@@ -313,6 +406,7 @@
     "author": "Eric Jorgenson",
     "published": "2020",
     "shelf": "read",
+    "topic": "Careers",
     "date_summarised": "2026-11-12",
     "gist": "Jorgenson arranges Naval Ravikant's talks into a short philosophy of specific knowledge, leverage and wanting less.",
     "page": "books/2026-11-12-the-almanack-of-naval-ravikant.html",
@@ -323,31 +417,41 @@
     ]
   },
   {
-    "title": "Sapiens",
-    "author": "Yuval Noah Harari",
-    "published": "2011",
-    "shelf": "read",
-    "date_summarised": "2026-11-12",
-    "gist": "Harari's history of the species runs from a cognitive leap to a scientific one, and treats shared myths as the real tool.",
-    "page": "books/2026-11-12-sapiens.html",
-    "tags": [
-      "history",
-      "society",
-      "science"
-    ]
+    "title": "Red Rising",
+    "author": "Pierce Brown",
+    "published": "2014",
+    "shelf": "reading-list",
+    "topic": "Science fiction"
   },
   {
-    "title": "The Ride of a Lifetime",
-    "author": "Robert Iger",
-    "published": "2019",
-    "shelf": "read",
+    "title": "The Farseer Trilogy",
+    "author": "Robin Hobb",
+    "published": "1995–1997",
+    "why": "Follows Fitz, a royal bastard training to be an assassin.",
+    "shelf": "reading-list",
+    "topic": "Fantasy"
+  },
+  {
+    "title": "Empire of the Vampire",
+    "author": "Jay Kristoff",
+    "published": "2021–",
+    "why": "A vampire story told as an interview.",
+    "shelf": "reading-list",
+    "topic": "Fantasy"
+  },
+  {
+    "title": "So Good They Can't Ignore You",
+    "author": "Cal Newport",
+    "published": "2012",
     "date_summarised": "2026-11-12",
-    "gist": "Iger's memoir of Disney is sharpest on the deals for Pixar, Marvel, Lucasfilm and Fox, and guarded about the man who made them.",
-    "page": "books/2026-11-12-the-ride-of-a-lifetime.html",
+    "gist": "Passion is a poor starting point: you earn work you love by building rare career capital, then spending it on control and a mission.",
+    "page": "books/2026-11-12-so-good-they-cant-ignore-you.html",
     "tags": [
-      "business",
-      "memoir",
-      "leadership"
-    ]
+      "careers",
+      "skills",
+      "work"
+    ],
+    "shelf": "gist",
+    "topic": "Careers"
   }
 ]

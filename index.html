@@ -3,34 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="JT’s Library: book summaries and reading notes, written as essays you can come back to.">
-  <title>JT's Library · Book summaries</title>
+  <meta name="description" content="JT’s Library: search books, browse reading shelves and topics, and revisit book summaries.">
+  <title>JT’s Library · Book summaries</title>
   <link rel="stylesheet" href="style.css">
   <script src="books.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to books</a>
-  <header class="site-header wrap"><a class="wordmark" href="index.html">JT’s Library<span>Book summaries</span></a><span class="header-note">What the books were for</span></header>
-  <main class="wrap" id="main">
-    <section class="intro" aria-labelledby="intro-title">
-      <p class="eyebrow">Reading notes</p>
-      <h1 id="intro-title">Books worth<br>sitting with.</h1>
-      <p class="lead">A private shelf of the books I’ve read, and the essays that try to keep the gist.<br>Title, author, a one-line sense of the argument, and a longer piece when I want to remember more than a blurb.</p>
-    </section>
-    <section class="books-section" aria-labelledby="books-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">The shelf</p>
-          <h2 id="books-title">Summaries</h2>
-        </div>
-        <span id="book-count" class="book-count" hidden></span>
-      </div>
-      <p id="books-status" class="status" role="status">Loading books…</p>
-      <ul id="books-list" class="entries-list"></ul>
-      <p id="empty-list" hidden>No summaries yet. Copy <code>books/_template.html</code> and add an entry to <code>books.json</code> to start the shelf.</p>
-    </section>
-    <noscript><p>Please enable JavaScript to load the shelf, or read the first essay: <a href="books/2026-11-12-so-good-they-cant-ignore-you.html">So Good They Can’t Ignore You</a>.</p></noscript>
-  </main>
-  <footer class="site-footer wrap">JT’s Library · Read slowly, keep the gist.</footer>
+<a class="skip-link" href="#main">Skip to the library</a>
+<div id="library-browser">
+<header class="jl-header"><a class="jl-brand" href="index.html">JT’s Library<span>.</span></a><div class="jl-small">A reading life, thoughtfully collected.</div></header>
+<div class="jl-layout">
+<aside class="jl-sidebar" aria-label="Library navigation"><div class="jl-label">The shelves</div><nav class="jl-shelves" aria-label="Book shelves"></nav><p class="jl-sidenote">Read slowly.<br>Keep the gist.</p></aside>
+<main class="jl-main" id="main">
+<p class="jl-eyebrow">A personal collection</p><h1>Books worth sitting with.</h1><p class="jl-intro">Find a book. Revisit an idea. Choose what’s next.</p>
+<label class="jl-search"><span aria-hidden="true">⌕</span><input type="search" aria-label="Search books, authors and topics" placeholder="Search books, authors or topics…"></label>
+<div class="jl-filters"><select class="jl-topic" aria-label="Filter by topic"><option value="">All topics</option></select><select class="jl-sort" aria-label="Sort books"><option value="shelf">Sort: shelf order</option><option value="title">Sort: title A–Z</option><option value="author">Sort: author A–Z</option><option value="year">Sort: publication, newest</option></select><button type="button" class="jl-reset" hidden>Clear filters</button><label class="jl-available"><input type="checkbox"> Summary available</label></div>
+<dialog class="jl-detail" aria-labelledby="book-detail-title"></dialog>
+<div class="jl-resultbar"><h2 class="jl-current">All books</h2><div class="jl-views" aria-label="Display"><button type="button" data-view="list" aria-pressed="true">List</button><button type="button" data-view="grid" aria-pressed="false">Grid</button></div></div>
+<p id="books-status" class="jl-small" role="status">Loading the shelves…</p><ul class="jl-results" aria-label="Books"></ul>
+<div class="jl-pagination"><span class="jl-range" role="status" aria-live="polite"></span><div><button type="button" class="jl-prev" aria-label="Previous page">←</button> <button type="button" class="jl-next" aria-label="Next page">→</button></div></div>
+<noscript><p>Enable JavaScript to search the library. <a href="books/2026-11-12-so-good-they-cant-ignore-you.html">Read the summary of So Good They Can’t Ignore You</a>.</p></noscript></main></div>
+<footer class="jl-bottom"><span>JT’s Library · Read slowly, keep the gist.</span><span class="jl-total"></span></footer>
+
+</div>
 </body>
 </html>
