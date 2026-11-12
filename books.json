@@ -3,9 +3,155 @@
     "title": "So Good They Can't Ignore You",
     "author": "Cal Newport",
     "published": "2012",
+    "shelf": "read",
     "date_summarised": "2026-11-12",
     "gist": "Passion is a poor starting point: you earn work you love by building rare career capital, then spending it on control and a mission.",
     "page": "books/2026-11-12-so-good-they-cant-ignore-you.html",
     "tags": ["careers", "skills", "work"]
+  },
+  {
+    "title": "Principles for Dealing with the Changing World Order",
+    "author": "Ray Dalio",
+    "published": "2021",
+    "shelf": "read"
+  },
+  {
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "published": "1997",
+    "shelf": "read"
+  },
+  {
+    "title": "Apple in China",
+    "author": "Patrick McGee",
+    "published": "2025",
+    "shelf": "read",
+    "rating": 4.5
+  },
+  {
+    "title": "Pachinko",
+    "author": "Min Jin Lee",
+    "published": "2017",
+    "shelf": "read"
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "published": "2020",
+    "shelf": "read"
+  },
+  {
+    "title": "Good Economics for Hard Times",
+    "author": "Abhijit V. Banerjee and Esther Duflo",
+    "published": "2019",
+    "shelf": "read"
+  },
+  {
+    "title": "The Trading Game",
+    "author": "Gary Stevenson",
+    "published": "2024",
+    "shelf": "read"
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel with Blake Masters",
+    "published": "2014",
+    "shelf": "read"
+  },
+  {
+    "title": "Hello World",
+    "author": "Hannah Fry",
+    "published": "2018",
+    "shelf": "read"
+  },
+  {
+    "title": "The Social Animal",
+    "author": "David Brooks",
+    "published": "2011",
+    "shelf": "read"
+  },
+  {
+    "title": "Kafka on the Shore",
+    "author": "Haruki Murakami",
+    "published": "2002",
+    "shelf": "read"
+  },
+  {
+    "title": "Homo Deus",
+    "author": "Yuval Noah Harari",
+    "published": "2015",
+    "shelf": "read"
+  },
+  {
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "published": "2018",
+    "shelf": "read"
+  },
+  {
+    "title": "A Song of Ice and Fire",
+    "author": "George R.R. Martin",
+    "published": "1996",
+    "shelf": "read"
+  },
+  {
+    "title": "Dataclysm",
+    "author": "Christian Rudder",
+    "published": "2014",
+    "shelf": "read"
+  },
+  {
+    "title": "Mastery",
+    "author": "Robert Greene",
+    "published": "2012",
+    "shelf": "read"
+  },
+  {
+    "title": "The Science of Meditation",
+    "author": "Daniel Goleman and Richard Davidson",
+    "published": "2017",
+    "shelf": "read"
+  },
+  {
+    "title": "Beyond Order",
+    "author": "Jordan B. Peterson",
+    "published": "2021",
+    "shelf": "read"
+  },
+  {
+    "title": "How to Change Your Mind",
+    "author": "Michael Pollan",
+    "published": "2018",
+    "shelf": "read"
+  },
+  {
+    "title": "Factfulness",
+    "author": "Hans Rosling, with Ola Rosling and Anna Rosling Rönnlund",
+    "published": "2018",
+    "shelf": "read"
+  },
+  {
+    "title": "How to Avoid a Climate Disaster",
+    "author": "Bill Gates",
+    "published": "2021",
+    "shelf": "read"
+  },
+  {
+    "title": "The Almanack of Naval Ravikant",
+    "author": "Eric Jorgenson",
+    "published": "2020",
+    "shelf": "read"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "published": "2011",
+    "shelf": "read"
+  },
+  {
+    "title": "The Ride of a Lifetime",
+    "author": "Robert Iger",
+    "published": "2019",
+    "shelf": "read"
   }
 ]

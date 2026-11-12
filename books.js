@@ -21,7 +21,12 @@
 
   function render(books) {
     const sorted = books.slice().sort(function (a, b) {
-      return String(b.date_summarised || "").localeCompare(String(a.date_summarised || ""));
+      const ad = String(a.date_summarised || "");
+      const bd = String(b.date_summarised || "");
+      if (ad && bd) return bd.localeCompare(ad);
+      if (ad) return -1;
+      if (bd) return 1;
+      return 0;
     });
     list.innerHTML = "";
     if (!sorted.length) {
@@ -38,12 +43,18 @@
       const summarised = book.date_summarised
         ? " · summarised <time datetime=\"" + escapeHtml(book.date_summarised) + "\">" + escapeHtml(formatSummarised(book.date_summarised)) + "</time>"
         : "";
+      const rating = book.rating != null && book.rating !== ""
+        ? " · " + escapeHtml(book.rating)
+        : "";
+      const titleHtml = book.page
+        ? "<a href=\"" + escapeHtml(book.page) + "\">" + escapeHtml(book.title) + "</a>"
+        : escapeHtml(book.title);
       li.innerHTML =
         "<article class=\"entry-card\">" +
           "<p class=\"year\">" + escapeHtml(book.published || "") + "</p>" +
           "<div>" +
-            "<p class=\"eyebrow\">" + escapeHtml(book.author || "Unknown author") + summarised + "</p>" +
-            "<h3><a href=\"" + escapeHtml(book.page) + "\">" + escapeHtml(book.title) + "</a></h3>" +
+            "<p class=\"eyebrow\">" + escapeHtml(book.author || "Unknown author") + rating + summarised + "</p>" +
+            "<h3>" + titleHtml + "</h3>" +
             (book.gist ? "<p class=\"gist\">" + escapeHtml(book.gist) + "</p>" : "") +
             tagsHtml +
           "</div>" +
