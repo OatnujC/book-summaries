@@ -130,7 +130,15 @@
     "title": "Hello World",
     "author": "Hannah Fry",
     "published": "2018",
-    "shelf": "read"
+    "shelf": "read",
+    "date_summarised": "2026-11-12",
+    "gist": "Trust an algorithm when it predicts better, and keep the human when the decision is a judgement about a person.",
+    "page": "books/2026-11-12-hello-world.html",
+    "tags": [
+      "algorithms",
+      "society",
+      "technology"
+    ]
   },
   {
     "title": "The Social Animal",
