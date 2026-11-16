@@ -461,6 +461,54 @@
     "topic": "Economics"
   },
   {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "published": "1939",
+    "why": "The Steinbeck follow-up to East of Eden: a family in the Depression, and a wider view of economic injustice.",
+    "shelf": "reading-list",
+    "topic": "Literary fiction"
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "published": "1818",
+    "why": "The pairing with Flowers for Algernon: intelligence, loneliness, and responsibility toward a life you have transformed.",
+    "shelf": "reading-list",
+    "topic": "Literary fiction"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "published": "1880",
+    "why": "If Crime and Punishment leaves you wanting more: family conflict, faith, freedom, and guilt, and a bridge to East of Eden.",
+    "shelf": "reading-list",
+    "topic": "Literary fiction"
+  },
+  {
+    "title": "The Death of Ivan Ilyich",
+    "author": "Leo Tolstoy",
+    "published": "1886",
+    "why": "A successful man asks whether he has lived well. Short, and close to the achievement books already on the shelf.",
+    "shelf": "reading-list",
+    "topic": "Literary fiction"
+  },
+  {
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "published": "1871–1872",
+    "why": "The moral complexity of East of Eden with the social breadth of Pachinko: ambition, marriage, and how people misunderstand themselves.",
+    "shelf": "reading-list",
+    "topic": "Literary fiction"
+  },
+  {
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "published": "1989",
+    "why": "Duty, self-deception, and missed possibilities, if the intimate voice of Flowers for Algernon stayed with you.",
+    "shelf": "reading-list",
+    "topic": "Literary fiction"
+  },
+  {
     "title": "So Good They Can't Ignore You",
     "author": "Cal Newport",
     "published": "2012",
